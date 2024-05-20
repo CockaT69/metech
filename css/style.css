@@ -122,7 +122,7 @@
     margin-left: 8px;
 }
 
-@media (max-width: 991.98px) {
+/* @media (max-width: 991.98px) {
     .navbar .navbar-brand {
         width: 126px;
         height: 100px;
@@ -137,9 +137,9 @@
         margin-top: 75px;
         border-top: 1px solid #EEEEEE;
     }
-}
+} */
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
     .navbar .nav-item .dropdown-menu {
         display: block;
         border: none;
@@ -156,7 +156,7 @@
         transition: .5s;
         opacity: 1;
     }
-}
+} */
 
 
 /*** Header ***/
@@ -229,7 +229,7 @@
     border: 15px solid var(--dark);
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     #header-carousel .carousel-item {
         position: relative;
         min-height: 450px;
@@ -241,14 +241,17 @@
         height: 100%;
         object-fit: cover;
     }
-}
+} */
 
-.page-header {
-    background: linear-gradient(rgba(136, 180, 78, .7), rgba(136, 180, 78, .7)), url(../img/carousel-1.jpg) center center no-repeat;
+
+/*** Accountability at Metech Recycle ***/
+
+.page-header-account {
+    background: linear-gradient(rgba(64, 64, 64, 0.7), rgba(94, 94, 94, 0.7)), url(../img/bg-page-header-business.jpg) center center no-repeat;
     background-size: cover;
 }
 
-.page-header .breadcrumb-item+.breadcrumb-item::before {
+/* .page-header .breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
 }
 
@@ -256,11 +259,135 @@
 .page-header .breadcrumb-item a {
     font-size: 18px;
     color: var(--light);
-}
+} */
 
 .background-size {
     width: 100% !important;
     height: 660px !important;
+}
+
+.font-business {
+    width: 600px;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgb(123, 123, 123);
+    background: rgb(22,164,54);
+    background: linear-gradient(180deg, rgba(22,164,54,0.9) 0%, rgba(22,164,54,0.9) 100%);
+    border-radius: 22px;
+    padding: 30px;
+}
+
+.text-accountability {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.img-maximum {
+    position: absolute;
+    width: 300px;
+    height: 220px;
+    margin-right: 40px;
+    margin-top: -100px;
+    border-radius: 50% 20% / 10% 40%;
+}
+
+.text-maximum {
+    color: #ffffff;
+}
+
+/*** Customer Audits ***/
+
+.background-audits {
+    background: rgb(132,255,160);
+    background: linear-gradient(167deg, rgba(132,255,160,1) 0%, rgba(22,164,54,1) 62%);
+}
+
+.img-audits {
+    width: 300px;
+    height: 200px;
+    box-shadow: 9px 6px 4px 3px rgba(0, 0, 0, .15);
+}
+
+.text-title-audits {
+    display: flex;
+    justify-content: left;
+    padding: 15px 15px 15px 0px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.text-name-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+
+/*** Mobile crusher ***/
+
+.text-mobile {
+    color: #ffffff;
+    margin-left: 60px;
+}
+
+.sub-text-mobile {
+    font-size: 28px;
+    color: #3c3b3b;
+}
+
+.background-mobile {
+    background-color: #8bd29b;
+    height: 300px;
+}
+
+.sub-background-mobile {
+    background: rgb(22,164,54);
+    background: linear-gradient(93deg, rgba(22,164,54,1) 0%, rgba(169,245,186,1) 77%);
+    height: 235px;
+}
+
+.img-mobile {
+    position: absolute;
+    width: 300px;
+    height: 220px;
+    margin-right: 40px;
+    margin-top: -100px;
+}
+
+/*** Mechanical Separation ***/
+
+.text-mechanical {
+    color: #16a43f;
+    margin-left: 60px;
+    font-size: 40px;
+}
+
+.text-mechanical-item {
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #078d11;
+    border-radius: 30px;
+    padding: 35px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/*** Content Value     box-shadow: 9px 6px 4px 3px rgba(0, 0, 0, .15);***/
+
+.text-value {
+    color: #16a43f;
+    margin-left: 60px;
+    font-size: 40px;
+}
+
+.text-value-item {
+    font-size: 16px;
+    color: #000;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /*** ZERO LANDFILL Title ***/
@@ -296,7 +423,7 @@
     height: 180px;
 }
 
-/*** factory info***/
+/*** Factory info***/
 .info-factory {
     margin-bottom: 1.5rem !important;
     font-size: 20px;
@@ -438,6 +565,61 @@
     height: 160px;
 }
 
+/*** Integrated Processing ***/
+
+.page-header-processing {
+    background: #16a436;
+    background-size: cover;
+    height: 300px;
+}
+
+.font-processing {
+    width: 600px;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgb(123, 123, 123);
+    background: #078d11;
+    border-radius: 22px;
+    padding: 30px;
+}
+
+.img-processing {
+    width: 510px;
+    height: 400px;
+    background-size: cover;
+}
+
+.bg-processing {
+    background-color: #16a436;
+}
+
+.text-title-processing {
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 60px;
+    color: #ffffff;
+}
+
+.text-info-processing {
+    margin-left: 100px;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.text-header-pp {
+    margin: 20px;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.img-products-processing {
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+
 /*** Footer ***/
 
 .img-icon-footer {
@@ -525,7 +707,7 @@
     }
 }
 
-.modal-video .modal-dialog {
+/* .modal-video .modal-dialog {
     position: relative;
     max-width: 800px;
     margin: 60px auto 0 auto;
@@ -548,11 +730,11 @@
     color: #FFFFFF;
     background: #000000;
     opacity: 1;
-}
+} */
 
 
 /*** Store ***/
-.store-item .store-overlay {
+/* .store-item .store-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -569,7 +751,7 @@
 
 .store-item:hover .store-overlay {
     opacity: 1;
-}
+} */
 
 
 /*** Contact ***/
