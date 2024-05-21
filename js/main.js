@@ -93,5 +93,33 @@
         dots: true,
         nav: false,
     });
+    
 
 })(jQuery);
+
+$(document).ready(function() {
+    let $btnPrev = $("#gallery .buttons .prev");
+    let $btnNext = $("#gallery .buttons .next");
+  
+    let $images = $("#gallery .photos img");
+    let i = 0;
+  
+    $btnPrev.on('click', function() {
+      $images.eq(i).removeClass("showed");
+      i--;
+      if (i < 0) {
+        i = $images.length - 1;
+      }
+      $images.eq(i).addClass("showed");
+    });
+  
+    $btnNext.on('click', function() {
+      $images.eq(i).removeClass("showed");
+      i++;
+      if (i >= $images.length) {
+        i = 0;
+      }
+      $images.eq(i).addClass("showed");
+    });
+  });
+  
