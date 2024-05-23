@@ -747,6 +747,13 @@ body {
 
 /*** Integrated Processing ***/
 
+.processing-content-value {
+    background: linear-gradient(rgba(136, 180, 78, .1), rgba(136, 180, 78, .1)), url(../img/bg-content-05.png) left bottom no-repeat;
+    height: 50vh;
+    background-size: cover;
+    /* background-size: auto; */
+}
+
 .page-header-processing,
 .page-header-security {
     background: #16a436;
