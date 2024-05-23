@@ -1,10 +1,10 @@
 /********** Template CSS **********/
-:root {
+/* :root {
     --primary: #88B44E;
     --secondary: #FB9F38;
     --light: #F5F8F2;
     --dark: #252C30;
-}
+} */
 
 .back-to-top {
     position: fixed;
@@ -134,7 +134,7 @@
     margin-left: 8px;
 }
 
-/* @media (max-width: 991.98px) {
+@media (max-width: 991.98px) {
     .navbar .navbar-brand {
         width: 126px;
         height: 100px;
@@ -149,9 +149,9 @@
         margin-top: 75px;
         border-top: 1px solid #EEEEEE;
     }
-} */
+}
 
-/* @media (min-width: 992px) {
+@media (min-width: 992px) {
     .navbar .nav-item .dropdown-menu {
         display: block;
         border: none;
@@ -168,7 +168,7 @@
         transition: .5s;
         opacity: 1;
     }
-} */
+}
 
 
 /*** Header ***/
@@ -184,7 +184,6 @@
 }
 
 .font-company {
-    width: 1010px;
     margin-top: 75px;
     font-family: sans-serif;
     font-size: 62px;
@@ -306,6 +305,7 @@
 
 .text-maximum {
     color: #ffffff;
+    text-align: left;
 }
 
 /*** Customer Audits ***/
@@ -342,7 +342,7 @@
 
 .text-mobile {
     color: #ffffff;
-    margin-left: 60px;
+    text-align: left;
 }
 
 .sub-text-mobile {
@@ -379,10 +379,11 @@
 
 .text-mechanical-item {
     font-size: 25px;
+    text-align: left;
     color: #ffffff;
     background-color: #078d11;
     border-radius: 30px;
-    padding: 35px;
+    padding: 20px 0px 20px 50px;
     margin-left: 40px;
     margin-right: 40px;
 }
@@ -391,15 +392,15 @@
 
 .text-value {
     color: #16a43f;
-    margin-left: 60px;
     font-size: 40px;
 }
 
 .text-value-item {
-    font-size: 16px;
+    font-size: 22px;
     color: #000;
+    text-align: left;
     padding-left: 20px;
-    padding-right: 20px;
+    font-weight: 600;
 }
 
 .text-title-value {
@@ -453,7 +454,7 @@
     padding: 15px 15px 15px 0px;
     color: #16a436;
     font-family: sans-serif;
-    font-size: 35px;
+    font-size: 40px;
 }
 
 .container-gallery {
@@ -461,7 +462,6 @@
     width: 50%;
     padding: 2% 0%;
     box-sizing: border-box;
-    height: 70vh;
 }
 
 .box-gallery {
@@ -569,12 +569,15 @@ body {
     background-size: cover;
 }
 
+.text-customers {
+    text-align: left;
+}
 
 /*** ZERO LANDFILL Title ***/
 
 .background-zero {
     background-color: #8bd29b;
-    height: 20vh;
+    /* height: 20vh; */
 }
 
 .text-zero {
@@ -599,14 +602,17 @@ body {
     position: absolute;
     display: flex;
     margin-left: 200px;
-    width: 220px;
-    height: 180px;
+    width: 200px;
+    height: 160px;
 }
 
 /*** Factory info***/
 .info-factory {
+    text-align: left;
     margin-bottom: 1.5rem !important;
-    font-size: 20px;
+    font-size: 21px;
+    padding-left: 20px;
+    margin-left: 40px;
 }
 
 .img-factory {
@@ -676,20 +682,23 @@ body {
     color: #ffffff;
     font-size: 30px;
     padding: 10px;
+    margin-bottom: 20px;
 }
 
 .background-info {
     background: rgb(22, 164, 54);
     background: linear-gradient(180deg, rgba(22, 164, 54, 1) 0%, rgba(22, 164, 54, 0.7) 0%);
     border-radius: 20px;
-    width: 400px;
-    height: 420px;
+    /* width: 400px; */
+    height: 590px;
     margin-bottom: 25px;
 }
 
 .text-body-info {
     font-size: 20px;
     color: #ffffff;
+    text-align: left;
+    padding-left: 20px;
 }
 
 .product-carousel .owl-nav .owl-prev,
@@ -745,11 +754,14 @@ body {
     height: 160px;
 }
 
+.bg-used-computer {
+    background-color: rgb(210 253 221);
+}
+
 /*** Integrated Processing ***/
 
 .processing-content-value {
     background: linear-gradient(rgba(136, 180, 78, .1), rgba(136, 180, 78, .1)), url(../img/bg-content-05.png) left bottom no-repeat;
-    height: 50vh;
     background-size: cover;
     /* background-size: auto; */
 }
@@ -790,8 +802,9 @@ body {
 }
 
 .text-info-processing {
-    margin-left: 100px;
+    margin-left: 50px;
     font-size: 25px;
+    text-align: left;
     color: #ffffff;
 }
 
@@ -806,21 +819,6 @@ body {
     width: 50px;
     height: 50px;
 }
-
-
-/*** Footer ***/
-
-.img-icon-footer {
-    margin-top: 20px;
-    width: 190px;
-    height: 170px;
-}
-
-.background-footer {
-    background: rgb(84, 150, 99);
-    background: linear-gradient(180deg, rgba(84, 150, 99, 1) 0%, rgba(50, 89, 58, 1) 100%);
-}
-
 
 /*** About ***/
 .csm {
@@ -951,6 +949,17 @@ body {
     border-radius: 50px;
 }
 
+.bg-light {
+    background: linear-gradient(180deg, rgb(100, 241, 133) 0%, rgba(194, 255, 208, 0.7) 0%);
+    border-radius: 20px;
+}
+
+.text-location {
+    padding: 15px 15px 15px 0px;
+    color: #47b760;
+    font-family: sans-serif;
+    font-size: 40px;
+}
 
 /*** Testimonial ***/
 .testimonial {
@@ -993,6 +1002,24 @@ body {
 .testimonial-carousel .owl-dot.active {
     width: 30px;
     background: var(--dark);
+}
+
+/*** Footer ***/
+
+.text-white {
+    color: #fff !important;
+    text-align: justify;
+}
+
+.img-icon-footer {
+    margin-top: 20px;
+    width: 190px;
+    height: 170px;
+}
+
+.background-footer {
+    background: rgb(84, 150, 99);
+    background: linear-gradient(180deg, rgba(84, 150, 99, 1) 0%, rgba(50, 89, 58, 1) 100%);
 }
 
 
