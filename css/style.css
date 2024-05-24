@@ -1,3 +1,4 @@
+
 /********** Template CSS **********/
 /* :root {
     --primary: #88B44E;
@@ -295,17 +296,18 @@
 }
 
 .img-maximum {
-    position: absolute;
+    /* position: absolute; */
     width: 300px;
     height: 220px;
     margin-right: 40px;
-    margin-top: -100px;
+    /* margin-top: -100px; */
     border-radius: 50% 20% / 10% 40%;
 }
 
 .text-maximum {
     color: #ffffff;
     text-align: left;
+    font-weight: 500;
 }
 
 /*** Customer Audits ***/
@@ -316,8 +318,8 @@
 }
 
 .img-audits {
-    width: 300px;
-    height: 200px;
+    width: 170px;
+    height: 150px;
     box-shadow: 9px 6px 4px 3px rgba(0, 0, 0, .15);
 }
 
@@ -343,37 +345,44 @@
 .text-mobile {
     color: #ffffff;
     text-align: left;
+    font-weight: 800;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 .sub-text-mobile {
     font-size: 28px;
-    color: #3c3b3b;
+    color: #ffffff;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 .background-mobile {
-    background-color: #8bd29b;
-    height: 300px;
+    background: linear-gradient(rgba(136, 180, 78, .1), rgba(136, 180, 78, .1)), url(../img/bg-content-03.png) left bottom no-repeat;
+    background-size: cover;
+    /* background-color: #8bd29b;
+    height: 68vh; */
 }
 
-.sub-background-mobile {
+/* .sub-background-mobile {
     background: rgb(22, 164, 54);
     background: linear-gradient(93deg, rgba(22, 164, 54, 1) 0%, rgba(169, 245, 186, 1) 77%);
     height: 235px;
-}
+} */
 
 .img-mobile {
-    position: absolute;
+    /* position: absolute; */
     width: 300px;
     height: 220px;
-    margin-right: 40px;
+    /* margin-right: 40px; */
     margin-top: -100px;
+    box-shadow: 9px 6px 4px 3px rgba(0, 0, 0, .15);
 }
 
 /*** Mechanical Separation ***/
 
 .text-mechanical {
     color: #16a43f;
-    margin-left: 60px;
+    /* margin-left: 60px; */
     font-size: 40px;
 }
 
@@ -405,6 +414,7 @@
 
 .text-title-value {
     color: #ffffff;
+    margin-bottom: 20px;
 }
 
 .img-value {
@@ -612,7 +622,7 @@ body {
     margin-bottom: 1.5rem !important;
     font-size: 21px;
     padding-left: 20px;
-    margin-left: 40px;
+    /* margin-left: 40px; */
 }
 
 .img-factory {
@@ -662,7 +672,6 @@ body {
 .product {
     background: linear-gradient(rgba(136, 180, 78, .1), rgba(136, 180, 78, .1)), url(../img/product-bg-1.jpg) left bottom no-repeat;
     background-size: cover;
-    /* background-size: auto; */
 }
 
 .product-carousel .owl-nav {
@@ -725,10 +734,20 @@ body {
 
 /*** CSM ***/
 
+.page-header-csm {
+    background: url(../img/nature-renewable-energy.jpg) center center no-repeat;
+    background-size: cover;
+}
+
 .box-icon {
-    display: flex;
+    /* display: flex;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: space-around; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    visibility: visible;
+    animation-name: fadeIn;
 }
 
 .background-csm {
@@ -756,6 +775,17 @@ body {
 
 .bg-used-computer {
     background-color: rgb(210 253 221);
+}
+
+.img-buddhism {
+    width: 400px;
+    height: 440px;
+}
+
+.img-wat {
+    padding-top: 50px;
+    width: 380px;
+    height: 280px;
 }
 
 /*** Integrated Processing ***/
@@ -797,12 +827,13 @@ body {
 .text-title-processing {
     font-size: 35px;
     margin-top: 20px;
-    margin-left: 60px;
+    /* margin-left: 60px; */
     color: #ffffff;
 }
 
 .text-info-processing {
     margin-left: 50px;
+    margin-bottom: 20px;
     font-size: 25px;
     text-align: left;
     color: #ffffff;
@@ -941,6 +972,13 @@ body {
 
 
 /*** Contact ***/
+
+.bg-content {
+    background: linear-gradient(rgba(136, 180, 78, .1), rgba(136, 180, 78, .1)), url(../img/bg-content-03.png) left bottom no-repeat;
+    background-size: cover;
+    /* background-size: auto; */
+}
+
 .contact .btn-square {
     width: 100px;
     height: 100px;
