@@ -1,11 +1,16 @@
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .text-zero .text-landfill {
+        font-size: 45px;
+    }
+}
 
 /********** Template CSS **********/
-/* :root {
+:root {
     --primary: #88B44E;
     --secondary: #FB9F38;
     --light: #F5F8F2;
     --dark: #252C30;
-} */
+}
 
 .back-to-top {
     position: fixed;
@@ -126,6 +131,7 @@
     color: var(--primary);
 }
 
+
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
@@ -147,8 +153,9 @@
     }
 
     .navbar .navbar-nav {
-        margin-top: 75px;
-        border-top: 1px solid #EEEEEE;
+        margin-top: 85px;
+        border-top: 1px;
+        border-top: 1px solid #16a43f;
     }
 }
 
@@ -173,6 +180,11 @@
 
 
 /*** Header ***/
+.page-header-home {
+    background: url(../img/background-home.jpg) center center no-repeat;
+    background-size: cover;
+}
+
 .carousel-caption {
     top: 40px;
     left: 0;
@@ -198,7 +210,7 @@
     align-items: center;
     margin-top: 30px;
     font-family: sans-serif;
-    font-size: 28px;
+    font-size: 25px;
     color: #434343;
 }
 
@@ -211,10 +223,16 @@
     border-radius: 0px 0px 35px 35px;
 }
 
+.center-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .img-recycle {
     display: flex;
-    margin-right: 80px;
-    width: 440px;
+    /* margin-right: 80px; */
+    width: 400px;
     height: 600px;
 }
 
@@ -279,7 +297,7 @@
 }
 
 .font-business {
-    width: 600px;
+    width: 440px;
     font-family: sans-serif;
     font-size: 40px;
     color: #ffffff;
@@ -402,6 +420,7 @@
 .text-value {
     color: #16a43f;
     font-size: 40px;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
 }
 
 .text-value-item {
@@ -553,7 +572,7 @@ body {
   }
   
   .btn-gallery {
-    width: 150px;
+    width: 100px;
     height: 20px;
     display: flex;
     align-items: center;
@@ -683,8 +702,11 @@ body {
 .text-title {
     color: #ffffff;
     font-size: 40px;
-    padding: 10px;
-    margin-bottom: 10px;
+    font-weight: 700;
+    padding: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-shadow: 2px 3px 2px black;
 }
 
 .text-product-info {
@@ -692,15 +714,22 @@ body {
     font-size: 30px;
     padding: 10px;
     margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 .background-info {
-    background: rgb(22, 164, 54);
     background: linear-gradient(180deg, rgba(22, 164, 54, 1) 0%, rgba(22, 164, 54, 0.7) 0%);
     border-radius: 20px;
-    /* width: 400px; */
-    height: 590px;
+    width: 400px;
+    height: 450px;
+    margin: 20px;
     margin-bottom: 25px;
+}
+
+.bg-3 {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
 }
 
 .text-body-info {
@@ -744,7 +773,7 @@ body {
     flex-wrap: nowrap;
     justify-content: space-around; */
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     visibility: visible;
     animation-name: fadeIn;
@@ -756,6 +785,7 @@ body {
     width: 200px;
     height: 200px;
     margin-bottom: 25px;
+    margin: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
