@@ -116,3 +116,19 @@ a .copyright a:hover {
 	color: #ffffff !important;
 }
 /* #endregion Footer*/
+
+.active {
+	color: #078d11 !important;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+	text-decoration: none;
+	background-color: #ffffff !important;
+	color: #078d11 !important;
+}
+
+.dropdown-item :hover {
+	background-color: #ffffff !important;
+	color: #078d11 !important;
+}
