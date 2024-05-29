@@ -4,6 +4,12 @@
     }
 }
 
+/* @media screen and (max-width: 320px) {
+    .font-processing {
+        width: 300px;
+    }
+  } */
+
 /********** Template CSS **********/
 :root {
     --primary: #88B44E;
@@ -220,7 +226,7 @@
     height: 125px;
     margin-right: 120px;
     box-shadow: 0 0 45px rgba(0, 0, 0, 0.18);
-    border-radius: 0px 0px 35px 35px;
+    border-radius: 0px 0px 40px 40px;
 }
 
 .center-img {
@@ -310,7 +316,12 @@
 
 .text-accountability {
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 25px;
+}
+
+.text-item-accountability {
+    font-family: sans-serif;
+    font-size: 18px;
 }
 
 .img-maximum {
@@ -326,6 +337,15 @@
     color: #ffffff;
     text-align: left;
     font-weight: 500;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.text-maximum-item {
+    color: #ffffff;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 400;
 }
 
 /*** Customer Audits ***/
@@ -348,6 +368,7 @@
     color: #ffffff;
     font-family: sans-serif;
     font-size: 40px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 .text-name-item {
@@ -355,6 +376,7 @@
     justify-content: center;
     align-items: center;
     color: #ffffff;
+    font-size: 25px;
 }
 
 
@@ -400,8 +422,7 @@
 
 .text-mechanical {
     color: #16a43f;
-    /* margin-left: 60px; */
-    font-size: 40px;
+    font-size: 45px;
 }
 
 .text-mechanical-item {
@@ -410,7 +431,7 @@
     color: #ffffff;
     background-color: #078d11;
     border-radius: 30px;
-    padding: 20px 0px 20px 50px;
+    padding: 20px 50px 20px 50px;
     margin-left: 40px;
     margin-right: 40px;
 }
@@ -424,7 +445,7 @@
 }
 
 .text-value-item {
-    font-size: 22px;
+    font-size: 25px;
     color: #000;
     text-align: left;
     padding-left: 20px;
@@ -434,6 +455,7 @@
 .text-title-value {
     color: #ffffff;
     margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 .img-value {
@@ -470,20 +492,22 @@
 .text-title-gallery {
     display: flex;
     justify-content: center;
-    /* padding: 15px 15px 15px 0px; */
+    height: 100px;
+    margin-top: 50px;
     color: #16a436;
     font-family: sans-serif;
     font-size: 40px;
-    /* margin-top: 15px; */
+    font-weight: 600;
 }
 
 .sub-text-gallery {
     display: flex;
     justify-content: center;
-    padding: 15px 15px 15px 0px;
+    padding: 15px 15px 15px 15px;
+    margin-top: 40px;
     color: #16a436;
     font-family: sans-serif;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .container-gallery {
@@ -531,9 +555,9 @@
     justify-content: center;
     color: #ffffff;
     font-family: sans-serif;
-    font-size: 40px;
+    font-size: 35px;
     padding: 20px;
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
 .bg-gallery {
@@ -573,13 +597,13 @@ body {
   
   .btn-gallery {
     width: 100px;
-    height: 20px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 100px;
     margin: 1rem;
     cursor: pointer;
   }
@@ -588,6 +612,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   
 
@@ -600,6 +626,7 @@ body {
 
 .text-customers {
     text-align: left;
+    font-size: 20px;
 }
 
 /*** ZERO LANDFILL Title ***/
@@ -639,7 +666,7 @@ body {
 .info-factory {
     text-align: left;
     margin-bottom: 1.5rem !important;
-    font-size: 21px;
+    font-size: 25px;
     padding-left: 20px;
     /* margin-left: 40px; */
 }
@@ -768,6 +795,12 @@ body {
     background-size: cover;
 }
 
+.bg-green {
+    color: rgb(22, 164, 54);
+    font-size: 47px;
+    font-weight: 700;
+}
+
 .box-icon {
     /* display: flex;
     flex-wrap: nowrap;
@@ -792,10 +825,16 @@ body {
 }
 
 .text-title-csm {
-    font-size: 50px;
-    color: #000000;
+    font-size: 40px;
+    color: #404040;
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
     width: auto;
+}
+
+.text-buddhism {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 40px;
 }
 
 .img-csm {
@@ -804,7 +843,7 @@ body {
 }
 
 .bg-used-computer {
-    background-color: rgb(210 253 221);
+    background-color: rgb(180 251 197);
 }
 
 .img-buddhism {
@@ -836,19 +875,20 @@ body {
 }
 
 .font-processing {
-    width: 600px;
+    /* width: 600px; */
+    width: calc(60%);
     font-family: sans-serif;
-    font-size: 40px;
+    font-size: 45px;
     color: #ffffff;
     text-shadow: 1px 1px 2px rgb(123, 123, 123);
     background: #078d11;
     border-radius: 22px;
-    padding: 30px;
+    padding: 25px;
 }
 
 .img-processing {
-    width: 510px;
-    height: 400px;
+    width: calc(103%);
+    height: calc(100% - 0px);
     background-size: cover;
 }
 
@@ -857,15 +897,17 @@ body {
 }
 
 .text-title-processing {
-    font-size: 35px;
+    font-size: 40px;
     margin-top: 20px;
-    /* margin-left: 60px; */
+    padding: 15px;
     color: #ffffff;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 .text-info-processing {
     margin-left: 50px;
     margin-bottom: 20px;
+    padding: 10px;
     font-size: 25px;
     text-align: left;
     color: #ffffff;
@@ -881,6 +923,11 @@ body {
     margin: 20px;
     width: 50px;
     height: 50px;
+}
+
+.img-fluid {
+    width: 450px;
+    height: auto;
 }
 
 /*** About ***/
@@ -1020,15 +1067,22 @@ body {
 }
 
 .bg-light {
-    background: linear-gradient(180deg, rgb(100, 241, 133) 0%, rgba(194, 255, 208, 0.7) 0%);
+    background: linear-gradient(180deg, rgb(100, 241, 133) 0%, rgb(150 251 173 / 70%) 0%);
     border-radius: 20px;
 }
 
 .text-location {
-    padding: 15px 15px 15px 0px;
+    padding: 15px 15px 15px 15px;
     color: #47b760;
     font-family: sans-serif;
     font-size: 40px;
+    font-weight: 700;
+}
+
+.text-item-location {
+    font-family: sans-serif;
+    font-size: 25px;
+    padding: 15px;
 }
 
 /*** Testimonial ***/
